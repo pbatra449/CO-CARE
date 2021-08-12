@@ -76,7 +76,7 @@ position: relative;
 
 #middle{
 
-background: url("../../images/3d-illustration-coronavirus-virus-cells-isolated-background-covid-19-concept.jpg");
+background: url("../../images/3d-illustration-coronavirus-virus-cells-isolated-background-covid-19-concept (1).jpg");
 
 background-repeat: no-repeat;
 position: relative;
@@ -89,7 +89,7 @@ position: relative;
 }
 @media (max-height:700px) {
   #middle {
-    background: url("../../images/3d-illustration-coronavirus-virus-cells-isolated-background-covid-19-concept.jpg");
+    background: url("../../images/3d-illustration-coronavirus-virus-cells-isolated-background-covid-19-concept (1).jpg");
     -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
@@ -99,7 +99,7 @@ position: relative;
 @media (max-width:700px) {
 
 #middle{
-  background: url("../../images/3d-illustration-coronavirus-virus-cells-isolated-background-covid-19-concept.jpg");
+  background: url("../../images/3d-illustration-coronavirus-virus-cells-isolated-background-covid-19-concept (1).jpg");
 
   background-repeat: no-repeat;
   position: relative;
