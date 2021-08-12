@@ -59,7 +59,6 @@ h1, h3{
   padding-bottom: 1%;
 }
 #intro{
-  /* background-image: image(public\images\ab.jpg); */
 
 background: url("../../images/5299.jpg");
 background-repeat: no-repeat;
@@ -73,31 +72,17 @@ position: relative;
   background-color: #16697A !important;
 }
 
-@media (max-height:700px) {
-  #intro {
-    background: url("../../images/5299.jpg");
-    -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
-  }
-}
 
 
 #middle{
-  /* background-image: image(public\images\ab.jpg); */
-/* background: url("../../images/3d-illustration-coronavirus-virus-cells-isolated-background-covid-19-concept.jpg") center / cover no-repeat; */
+
 background: url("../../images/3d-illustration-coronavirus-virus-cells-isolated-background-covid-19-concept.jpg");
-/* -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover; */
-/* background: url("../../images/3d-illustration-coronavirus-virus-cells-isolated-background-covid-19-concept.jpg") center / cover no-repeat; */
+
 background-repeat: no-repeat;
 position: relative;
 
-    background-size: 100% 75vh;
-    min-height: 75vh;
+    background-size: 100% 70vh;
+    min-height: 70vh;
 
   padding: 60px 60px;
   text-align: center;
@@ -111,7 +96,25 @@ position: relative;
      background-size: cover;
   }
 }
+@media (max-width:700px) {
 
+#middle{
+  background: url("../../images/3d-illustration-coronavirus-virus-cells-isolated-background-covid-19-concept.jpg");
+
+  background-repeat: no-repeat;
+  position: relative;
+
+      background-size: cover;
+
+}
+
+}
+@media (min-width:700px) {
+  .about-text{
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+}
 .footer{
 	text-align: center;
   color: #F2EDD7;
@@ -151,10 +154,6 @@ position: relative;
   max-width: 700px;
 }
 
-.about-text{
-  font-size: 1.2rem;
-  font-weight: 700;
-}
 
 .copy{
   margin-top: 3%;
