@@ -6,6 +6,10 @@
   "scripts": {
     "start": "node app.js"
   },
+   "repository": {
+  "type": "git",
+  "url": ""
+}
   "author": "Pranav Batra",
   "license": "ISC",
   "dependencies": {
