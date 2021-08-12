@@ -12,17 +12,17 @@ app.use(express.static("public"));
 app.get("/",function(req,res){
   res.render("homepage")
 
-})
+});
 
 app.get("/about",function(req,res){
   res.render("about")
 
-})
+});
 
 app.get("/write",function(req,res){
   res.render("Write")
 
-})
+});
 
 
 app.listen(process.env.PORT || 3000, function() {
